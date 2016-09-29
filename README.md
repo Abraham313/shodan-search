@@ -3,29 +3,29 @@
 https://www.shodan.io/
 
 ## INSTALL SHODAN 
-easy_install shodan
+	easy_install shodan
 
 ## ADD YOUR API KEY (you must login)
-shodan init <you shodan API>
+	shodan init <your shodan API>
 
 ## MANUEL SHODAN SEARCH (exemple of commande).
-shodan search windows-xp
+	shodan search windows-xp
 
-shodan search --fields ip_str,port,hostnames windows-xp
+	shodan search --fields ip_str,port,hostnames windows-xp
 
-shodan download search windows-xp
+	shodan download search windows-xp
 
-shodan parse search.json.gz --fields ip_str,port,hostnames
+	shodan parse search.json.gz --fields ip_str,port,hostnames
 
-shodan parse search.json.gz --fields ip_str,port,asn
+	shodan parse search.json.gz --fields ip_str,port,asn
 
-shodan parse search.json.gz --fields ip_str,port,org
+	shodan parse search.json.gz --fields ip_str,port,org
 
-shodan parse search.json.gz --fields ip_str,port,OS
+	shodan parse search.json.gz --fields ip_str,port,OS
 
-shodan myip
+	shodan myip
 
-shodan host xxx.xxx.xxx.xxx
+	shodan host xxx.xxx.xxx.xxx
 
 ## TO GET HELP FOR A SPECIAL COMMANDE (ex: search)
 
