@@ -31,3 +31,5 @@ shodan serach -h
 	Searching services and aplications
 	Example: ./shodan_search.sh windows-xp
 	
+## TUTO
+https://www.youtube.com/watch?v=sM5mqVZsegk
