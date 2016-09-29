@@ -24,10 +24,10 @@ shodan host 31.13.83.36
 shodan serach -h
 
 ## USE shodan_search.sh SCRIPT
-	echo "How to use
+	#How to use
 	When the argument passed host use IP as a parameter
 	Exemple: $0 host 192.168.1.1
 	The above command will make one last fingerprint IP.
 	Searching services and aplications
-	Example: $0 windows-xp"
+	Example: $0 windows-xp
 	
