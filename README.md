@@ -10,14 +10,22 @@ shodan init <you shodan API>
 
 ## MANUEL SHODAN SEARCH (exemple of commande).
 shodan search windows-xp
+
 shodan search --fields ip_str,port,hostnames windows-xp
+
 shodan download search windows-xp
+
 shodan parse search.json.gz --fields ip_str,port,hostnames
+
 shodan parse search.json.gz --fields ip_str,port,asn
+
 shodan parse search.json.gz --fields ip_str,port,org
+
 shodan parse search.json.gz --fields ip_str,port,OS
+
 shodan myip
-shodan host 31.13.83.36
+
+shodan host xxx.xxx.xxx.xxx
 
 ## TO GET HELP FOR A SPECIAL COMMANDE (ex: search)
 
