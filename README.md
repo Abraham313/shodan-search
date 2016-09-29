@@ -29,7 +29,7 @@ https://www.shodan.io/
 
 ## TO GET HELP FOR A SPECIAL COMMANDE (ex: search)
 
-shodan serach -h
+	shodan serach -h
 
 ## USE shodan_search.sh SCRIPT
 	# How to use
